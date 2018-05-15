@@ -1,0 +1,46 @@
+<div class="width">
+    <div class="row position-1">
+        <div class="col-md-3" id="text-size">
+            <span style="color:#bc2b2b">Omoikane</span> Dashboard
+        </div>
+        <div class="col-md-4">
+            <div class="inner-addon right-addon">
+                <i class="fa fa-search"></i>
+                <input type="text" class="form-control" placeholder="Search..." />
+            </div>
+        </div>
+        <!-- <div class="col-md-5">
+            <i class="fa fa-bars position-2"></i>
+            <i class="fa fa-bell position-2"></i>
+            
+        </div> -->
+        <div class="col-md-5 menu-pos">
+            <div ngbDropdown>
+                <button class="btn simple" id="dropdownBasic1" ngbDropdownToggle><i class="fa fa-bell"></i></button>
+                <div class="dropdown-pos" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <button class="dropdown-item">Notif 1</button>
+                    <button class="dropdown-item">Notif 2</button>
+                    <button class="dropdown-item">Notif 3</button>
+                    <button class="dropdown-item">Notif 4</button>
+                    <button class="dropdown-item">Notif 5</button>
+                </div>
+            </div>
+            <div ngbDropdown>
+                <button class="btn simple" id="dropdownBasic1" ngbDropdownToggle><i class="fa fa-bars"></i></button>
+                <div class="dropdown-pos" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <button class="dropdown-item" (click)="logout()">Logout</button>
+                    <!-- <button class="dropdown-item">Subscription</button> -->
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-md-3">
+            <div ngbDropdown>
+                <button class="btn simple" id="dropdownBasic1" ngbDropdownToggle><i class="fa fa-bars"></i></button>
+                <div class="dropdown-pos" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <button class="dropdown-item">Logout</button>
+                    <button class="dropdown-item">Subscription</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>

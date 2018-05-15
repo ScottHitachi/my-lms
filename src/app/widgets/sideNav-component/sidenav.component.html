@@ -1,0 +1,19 @@
+<!-- Side navigation -->
+<div class="sidenav">
+        <div class="row profile-item">
+                <i class="fa fa-user-circle profile"></i>John Doe        
+        </div>                
+        <hr/>
+        <div class="row" [ngClass]="isCourses" (click)="courses()">
+                <i class="fa fa-book menu"></i>COURSES
+        </div>
+        <div class="row" [ngClass]="isStudymat" (click)="studymat()">
+                <i class="fa fa-archive menu"></i>STUDY MATERIALS
+        </div>
+        <div class="row" [ngClass]="isExams" (click)="exams()">
+                <i class="fa fa-pencil menu"></i>EXAMS
+        </div>
+        <div class="row" [ngClass]="isFeedback" (click)="feedback()">
+               <i class="fa fa-calendar menu"></i>FEEDBACK
+        </div>       
+</div>

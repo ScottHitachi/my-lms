@@ -1,0 +1,12 @@
+.width{
+    padding-left:270px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    height: 10vh fit-content;
+    box-shadow: inset 0px 10px 30px -12px rgba(0, 0, 0, 0.7);
+}
+.body-width{
+    padding-left: 280px;
+    background-color: #d6d9db;
+    height: 100vh;
+}
